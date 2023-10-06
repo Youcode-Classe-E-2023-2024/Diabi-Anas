@@ -1,0 +1,109 @@
+.navbar   {
+	background: linear-gradient(to left, #e1ff00, #c900d3);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+}
+.navbar .nav-item a:hover {
+	color:#c900d3 ;
+}
+.col-md-12{
+    margin-top: 100px;
+    
+}
+.Sec1{
+	
+	
+	display: flex;
+	padding: 0;
+	overflow: hidden;
+	background: url(/Applight/images/pxfuel.jpg) ;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+	
+
+.forum{
+	
+	backdrop-filter: blur(30px);
+	padding: 2% 5% 0;
+	
+	flex-direction: column;
+	
+    box-sizing: border-box;
+    display: flex;
+	position: end;
+	width: 30vw;
+	height: auto
+	
+	
+}
+.forum input{
+
+	display: block;
+	width: 90%;
+	height: 20px;
+	
+    padding: 5px 20px 5px 0px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 30px;
+	background-color:transparent;
+	
+    border-width: 0;
+    border-bottom: 1px solid #dae4ea;
+    color: #717274;
+    font-size: 18px;
+	
+}
+input::placeholder {
+	color: #d6b0a1; /* Replace with your desired color code */
+  }
+.head{
+	margin-bottom: 10px;
+	margin-top: 10%;
+	font-family: 'Rubik', sans-serif;
+	font-size:30px;
+	font-weight: 700;
+}
+p{
+	
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 20%;
+	color: rgb(128, 128, 128);
+	
+}
+h1{
+	color: rgb(197, 197, 197);
+}
+.button{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(255, 174, 0, 0.662);
+	padding: 20px  ;
+	text-align: center;
+	margin: 5px 30px 80px;
+	font-family: 'Rubik', sans-serif;
+	border-radius: 5px;
+	box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+.button:hover{
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.button:active{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.logo{
+	height: 60px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
